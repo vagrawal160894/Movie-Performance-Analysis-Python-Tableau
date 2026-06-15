@@ -19,18 +19,29 @@ This end-to-end data analytics project investigates **what factors drive a movie
 movie-analytics/
 │
 ├── notebooks/
-│   ├── 01_data_cleaning.ipynb
-│   ├── 02_feature_engineering.ipynb
-│   ├── 03_eda.ipynb
-│   ├── 04_hypothesis_testing.ipynb
-│   └── 05_regression_analysis.ipynb
+│   ├── data_cleaning_and_feature_engineering.ipynb
+│   ├── EDA_and_statistical_analysis.ipynb
+│   
+├── reports   
+│   ├── Movie_Industry_Analytics.pdf
 │
 ├── data/
-│   ├── cleaned_dataset.csv          # 42,329 movies — EDA & hypothesis testing
-│   └── financial_dataset.csv        # 5,365 movies — regression & ROI analysis
-│
-├── charts/                          # Exported Python visualizations
-├── tableau/                         # Packaged Tableau workbook (.twbx)
+│   ├── cleaned_dataset.csv         # Excluded from Repository (Size Limit)
+│   └── financial_dataset.csv       
+│  
+├── charts/ 
+│     ├── genre_revenue.png
+│     └── genre_rating.png
+│     └── median_roi.png
+│     └── correlation_heatmap.png   
+│ 
+├── dashboards/     
+│     ├── industry_performance.png
+│     └── revenue_drivers.png
+│ 
+├── tableau/    
+│    ├── Movie_Industry_Analytics.twbx
+│                 
 └── README.md
 ```
 
